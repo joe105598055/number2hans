@@ -1,0 +1,7 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        // For mocha: "TS_NODE_PROJECT='./tsconfig.commonjs.json' mocha"
+        "module": "commonjs",
+    }
+}
