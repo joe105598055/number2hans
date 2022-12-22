@@ -2,12 +2,14 @@
   "name": "number2hans",
   "version": "1.0.0",
   "description": "Convert number to chinese word.",
+  "homepage": "https://github.com/joe105598055/number2hans#readme",
   "main": "dist/index.es.js",
   "types": "./types/index.d.ts",
   "scripts": {
     "compile": "tsc --declaration --emitDeclarationOnly --declarationDir ./types",
     "build": "rollup --config rollup.config.js --configPlugin typescript",
-    "test": "TS_NODE_PROJECT='./tsconfig.commonjs.json' mocha"
+    "test": "TS_NODE_PROJECT='./tsconfig.commonjs.json' mocha",
+    "deploy": "npm run build && npm run compile && npm publish"
   },
   "exports": {
     ".": {
@@ -15,7 +17,12 @@
       "import": "./dist/index.es.js"
     }
   },
-  "author": "",
+  "author": "joe105598055",
+  "keywords": [
+    "數字轉中文",
+    "Convert number to chinese",
+    "金額中文"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-typescript": "^10.0.1",
