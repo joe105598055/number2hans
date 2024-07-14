@@ -1,16 +1,16 @@
 # number2hans
 
-A JavaScript library for parsing number to chinese word.
+A JavaScript library for parsing numbers into Chinese words.
 
-## Install
+## Installation
 
-To use this library directly, install it as a dependency
+To use this library directly, install it as a dependency.
 
 ```
 npm install number2hans
 ```
 
-Once the package is installed, you can import the library using `import` or `require` approach
+Import the library using `import` or `require` approach.
 
 ```ts
 import number2hans from "number2hans";
@@ -37,8 +37,4 @@ Builds the project into the `dist` dir.
 
 #### `npm run test`
 
-Run unit test in mocha, all files in the `src/test` directory will be executed. 
-
-#### `npm run compile`
-
-Generate .d.ts files in `types` dir.
+Run unit test in `vitest`, all files in the `src/test/*` directory will be executed.

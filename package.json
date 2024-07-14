@@ -1,7 +1,7 @@
 {
   "name": "number2hans",
-  "version": "1.0.1",
-  "description": "Convert number to chinese word.",
+  "version": "1.0.2",
+  "description": "Convert numbers to Chinese words.",
   "homepage": "https://github.com/joe105598055/number2hans#readme",
   "type": "module",
   "main": "dist/index.es.js",
